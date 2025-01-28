@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|solutionrelative:hotelreservationsystem1\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|solutionrelative:hotelreservationsystem1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|c:\\users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|solutionrelative:hotelreservationsystem1\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|solutionrelative:hotelreservationsystem1\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\guestdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|solutionrelative:hotelreservationsystem1\\guestdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\guestdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|solutionrelative:hotelreservationsystem1\\guestdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|solutionrelative:hotelreservationsystem1\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|solutionrelative:hotelreservationsystem1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|solutionrelative:hotelreservationsystem1\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04332D49-03D7-410B-A361-7278A7909DA1}|hotelreservationsystem1\\hotelreservationsystem1.csproj|solutionrelative:hotelreservationsystem1\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "hotelreservationsystem1\\AdminDashboard.cs",
+              "ToolTip": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\AdminDashboard.cs",
+              "RelativeToolTip": "hotelreservationsystem1\\AdminDashboard.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAIA4wDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T14:06:13.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "hotelreservationsystem1\\AdminDashboard.cs",
+              "ToolTip": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\AdminDashboard.cs [Design]",
+              "RelativeToolTip": "hotelreservationsystem1\\AdminDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T13:41:11.314Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GuestDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\GuestDashboard.cs",
+              "RelativeDocumentMoniker": "hotelreservationsystem1\\GuestDashboard.cs",
+              "ToolTip": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\GuestDashboard.cs",
+              "RelativeToolTip": "hotelreservationsystem1\\GuestDashboard.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAIA4wC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T13:11:27.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\Form1.cs",
+              "RelativeDocumentMoniker": "hotelreservationsystem1\\Form1.cs",
+              "ToolTip": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\Form1.cs",
+              "RelativeToolTip": "hotelreservationsystem1\\Form1.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowEUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T20:19:52.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrationForm.cs",
+              "DocumentMoniker": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\RegistrationForm.cs",
+              "RelativeDocumentMoniker": "hotelreservationsystem1\\RegistrationForm.cs",
+              "ToolTip": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\RegistrationForm.cs",
+              "RelativeToolTip": "hotelreservationsystem1\\RegistrationForm.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAkwFUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T20:26:53.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GuestDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\GuestDashboard.cs",
+              "RelativeDocumentMoniker": "hotelreservationsystem1\\GuestDashboard.cs",
+              "ToolTip": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\GuestDashboard.cs [Design]",
+              "RelativeToolTip": "hotelreservationsystem1\\GuestDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T10:04:57.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\Form1.cs",
+              "RelativeDocumentMoniker": "hotelreservationsystem1\\Form1.cs",
+              "ToolTip": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\Form1.cs [Design]",
+              "RelativeToolTip": "hotelreservationsystem1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T20:04:06.793Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegistrationForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\RegistrationForm.cs",
+              "RelativeDocumentMoniker": "hotelreservationsystem1\\RegistrationForm.cs",
+              "ToolTip": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\RegistrationForm.cs [Design]",
+              "RelativeToolTip": "hotelreservationsystem1\\RegistrationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T20:22:42.465Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountManager.cs",
+              "DocumentMoniker": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\AccountManager.cs",
+              "RelativeDocumentMoniker": "hotelreservationsystem1\\AccountManager.cs",
+              "ToolTip": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\AccountManager.cs",
+              "RelativeToolTip": "hotelreservationsystem1\\AccountManager.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAkwKwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T07:24:45.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\Account.cs",
+              "RelativeDocumentMoniker": "hotelreservationsystem1\\Account.cs",
+              "ToolTip": "C:\\Users\\janet\\source\\repos\\hotelreservationsystem1\\hotelreservationsystem1\\Account.cs",
+              "RelativeToolTip": "hotelreservationsystem1\\Account.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T07:25:21.888Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
