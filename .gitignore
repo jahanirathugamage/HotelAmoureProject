@@ -1,0 +1,19 @@
+# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.vscode/
+.vs/
+
+# Logs
+*.log
+
+# Rider-specific
+.idea/
+
+# NuGet Packages
+packages/
+*.nupkg
