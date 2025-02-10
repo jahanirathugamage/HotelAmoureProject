@@ -8,6 +8,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Tab;
 
 namespace hotelreservationsystem1
 {
@@ -22,6 +23,7 @@ namespace hotelreservationsystem1
 
         }
 
+
         private void close_Click(object sender, EventArgs e)
         {
             Application.Exit(); // trigger application to close
@@ -29,8 +31,8 @@ namespace hotelreservationsystem1
 
         private void login_registerBtn_Click(object sender, EventArgs e)
         {
-            // hide the login form 
-            this.Hide();
+            // close the login form 
+            this.Close();
 
             // connect to the registration form 
             Form RegistrationForm = new RegistrationForm();
@@ -46,39 +48,7 @@ namespace hotelreservationsystem1
 
         private void login_btn_Click(object sender, EventArgs e)
         {
-            // AccountManager.TestDBConnection();
-
-            // validate username and password 
-            if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
-            {
-                MessageBox.Show("Please enter both username and password.");
-                return;
-            }
-
-            // validate user login
-            bool isUserValid = AccountManager.ValidateUserLogin(username, password);
-            bool isAdminValid = AccountManager.ValidateAdminLogin(username, password);
-
-            if (isUserValid)
-            {
-                // open the user dashboard
-                this.Hide();
-                Form GuestDashboard = new GuestDashboard();
-                GuestDashboard.ShowDialog();
-
-            }
-            else if (isAdminValid)
-            {
-                // open the admin dashboard
-                this.Hide();
-                Form AdminDashboard = new AdminDashboard();
-                AdminDashboard.ShowDialog();
-
-            }
-            else
-            {
-                MessageBox.Show("Try Again! Invalid username or password.");
-            }
+            Account.processLogin(username,password,this);
         }
 
         private void login_username_TextChanged(object sender, EventArgs e)

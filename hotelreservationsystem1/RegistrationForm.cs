@@ -12,7 +12,9 @@ namespace hotelreservationsystem1
 {
     public partial class RegistrationForm: Form
     {
-
+        private string name;
+        private string email;
+        private string contactNumber;
         private string username;
         private string password;
         private string confirmPass;
@@ -30,8 +32,7 @@ namespace hotelreservationsystem1
 
         private void register_signinBtn_Click(object sender, EventArgs e)
         {
-            // hide the registration form 
-            this.Hide();
+            this.Close();
 
             // connect to the login form 
             Form Form1 = new Form1();
@@ -48,50 +49,7 @@ namespace hotelreservationsystem1
 
         private void register_signupBtn_Click(object sender, EventArgs e)
         {
-            // check for whitespaces in username or password
-            if (username.Contains(" ") || password.Contains(" "))
-            {
-                MessageBox.Show("Username and password cannot contain spaces.");
-                return;
-            }
-
-            // check if password is at least 8 characters long
-            else if (password.Length < 8)
-            {
-                MessageBox.Show("Password must be at least 8 characters long.");
-                return;
-            }
-
-            // check if password matches confirmation password
-            else if (password != confirmPass)
-            {
-                MessageBox.Show("Password and confirmation password do not match.");
-                return;
-            }
-
-            // check if the username and password already exist 
-            else if (AccountManager.searchAccountDBUsernames(username) || AccountManager.searchAccountDBPasswords(password))
-            {
-                MessageBox.Show("Unavailable credentials. Please choose a different username and password.");
-                return;
-            }
-            else 
-            {
-                // create account
-                Account newAccount = new Account(accountType, username, password);
-
-                // add account
-                AccountManager.AddNewUser(newAccount);
-
-                // Show success message and redirect to login form
-                MessageBox.Show("Registration successful!");
-
-                // redirect to login 
-                this.Hide();
-                
-                Form Form1 = new Form1();
-                Form1.ShowDialog();
-            }
+            Account.processRegistration(name, email, contactNumber, username, password, confirmPass, accountType);
         }
 
         private void register_username_TextChanged(object sender, EventArgs e)
@@ -107,6 +65,21 @@ namespace hotelreservationsystem1
         private void register_confirmPass_TextChanged(object sender, EventArgs e)
         {
             confirmPass = register_confirmPass.Text;
+        }
+
+        private void register_name_TextChanged(object sender, EventArgs e)
+        {
+            name = register_name.Text;
+        }
+
+        private void resgister_email_TextChanged(object sender, EventArgs e)
+        {
+            email = resgister_email.Text;
+        }
+
+        private void register_contactNumber_TextChanged(object sender, EventArgs e)
+        {
+            contactNumber = register_contactNumber.Text;
         }
     }
 }

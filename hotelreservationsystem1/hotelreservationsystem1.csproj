@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
       <HintPath>..\packages\BouncyCastle.Cryptography.2.3.1\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
@@ -100,24 +103,86 @@
   <ItemGroup>
     <Compile Include="Account.cs" />
     <Compile Include="AccountManager.cs" />
+    <Compile Include="Admin.cs" />
     <Compile Include="AdminDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AdminDashboard.Designer.cs">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminManager.cs" />
+    <Compile Include="AdminProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminProfile.Designer.cs">
+      <DependentUpon>AdminProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRoomAvailability.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRoomAvailability.Designer.cs">
+      <DependentUpon>AdminRoomAvailability.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AvailableRooms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AvailableRooms.Designer.cs">
+      <DependentUpon>AvailableRooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeluxeRoom.cs" />
+    <Compile Include="Feedback.cs" />
+    <Compile Include="FeedbackForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeedbackForm.Designer.cs">
+      <DependentUpon>FeedbackForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FeedbackForum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeedbackForum.Designer.cs">
+      <DependentUpon>FeedbackForum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FeedbackManager.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Guest.cs" />
     <Compile Include="GuestDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GuestDashboard.Designer.cs">
       <DependentUpon>GuestDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="GuestManager.cs" />
+    <Compile Include="GuestProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuestProfile.Designer.cs">
+      <DependentUpon>GuestProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageFeedback.Designer.cs">
+      <DependentUpon>ManageFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageOffers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageOffers.Designer.cs">
+      <DependentUpon>ManageOffers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentPortal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentPortal.Designer.cs">
+      <DependentUpon>PaymentPortal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegistrationForm.cs">
@@ -126,14 +191,64 @@
     <Compile Include="RegistrationForm.Designer.cs">
       <DependentUpon>RegistrationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reservation.cs" />
+    <Compile Include="ReservationManager.cs" />
+    <Compile Include="ReservationPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservationPanel.Designer.cs">
+      <DependentUpon>ReservationPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RevenueReport.cs" />
+    <Compile Include="Room.cs" />
+    <Compile Include="RoomControlPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomControlPanel.Designer.cs">
+      <DependentUpon>RoomControlPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoomManager.cs" />
+    <Compile Include="RoomOccupancyReport.cs" />
+    <Compile Include="SpecialOffer.cs" />
+    <Compile Include="SpecialOfferManager.cs" />
+    <Compile Include="StandardRoom.cs" />
+    <Compile Include="SuiteRoom.cs" />
+    <Compile Include="SystemManager.cs" />
     <EmbeddedResource Include="AdminDashboard.resx">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminProfile.resx">
+      <DependentUpon>AdminProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRoomAvailability.resx">
+      <DependentUpon>AdminRoomAvailability.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AvailableRooms.resx">
+      <DependentUpon>AvailableRooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeedbackForm.resx">
+      <DependentUpon>FeedbackForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeedbackForum.resx">
+      <DependentUpon>FeedbackForum.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GuestDashboard.resx">
       <DependentUpon>GuestDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuestProfile.resx">
+      <DependentUpon>GuestProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageFeedback.resx">
+      <DependentUpon>ManageFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageOffers.resx">
+      <DependentUpon>ManageOffers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentPortal.resx">
+      <DependentUpon>PaymentPortal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -146,6 +261,12 @@
     </Compile>
     <EmbeddedResource Include="RegistrationForm.resx">
       <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReservationPanel.resx">
+      <DependentUpon>ReservationPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomControlPanel.resx">
+      <DependentUpon>RoomControlPanel.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
